@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      body{
+          margin:0;
+          padding:0;
+          background-color:rgba(46, 53, 63, 1);
+      }
+      #c1{
+          font-size:150px;
+          color:rgba(255, 255, 255, 0.1);
+          background-image:url(./color5.png);
+          background-position: -20px 0px;
+          background-repeat:repeat-x;
+          background-clip:text;
+          -webkit-background-clip:text;
+          animation:animate 40s  linear infinite;
+       }
+       #c2{
+          font-size:150px;
+          color:rgba(255, 255, 255, 0.1);
+          background-image:url(./color4.jpg);
+          background-position: -20px 0px;
+          background-repeat:repeat-x;
+          background-clip:text;
+          -webkit-background-clip:text;
+          animation:animate 40s  linear infinite;
+       }
+       #c3{
+          font-size:150px;
+          color:rgba(255, 255, 255, 0.1);
+          background-image:url(./color2.jpg);
+          background-position: -20px 0px;
+          background-repeat:repeat-x;
+          background-clip:text;
+          -webkit-background-clip:text;
+          animation:animate 40s  linear infinite;
+       }
+
+       @keyframes animate{
+      0%{
+          background-position: left 0px  top 10px;
+      }
+
+      100%{
+          background-position: left 800px  top 10px;
+      }
+
+      }
+        #container{
+          
+          margin-top:5%;
+          text-align:center;
+       };
+
+       
+
+      
+    </style>
+</head>
+
+
+<body>
+    <div id="container">
+
+    <h1 id="c1">COLOR</h1>
+    <h1 id="c2">COLOR</h1>
+    <h1 id="c3">COLOR</h1>
+    <h1 id="c2">田 田 田</h1>
+    <h1 id="c3">COLOR</h1>
+    </div>
+</body>
+</html>
